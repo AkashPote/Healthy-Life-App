@@ -1,0 +1,250 @@
+
+body {
+  font-family: "Montserrat";
+  
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+  color: #000;
+}
+
+.feature-title:hover{
+  
+  text-decoration: none;
+  
+}
+p {
+  color: #8f8f8f;
+}
+
+b{
+  color: #000;
+}
+b:hover{
+  
+  color:#fff;
+  
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.big-heading-2 {
+  color: #fff;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #5dd20f;
+  color: black;
+  
+
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+  
+}
+
+
+a.nav-link {
+  
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  border-radius: 35%;
+  border-inline-end:  60px;
+  
+  
+}
+a.nav-link:hover{
+  
+  background-color: #000;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #5dd20f;
+  color: #000;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 70%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 15%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #5dd20f;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #5dd20f;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 30%;
+  transition: transform .2s; 
+  border-radius: 10%;
+  margin: 20px;
+}
+.testimonial-image:hover{
+  transform: scale(3);
+}
+
+
+#press {
+  background-color: #5dd20f;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 20%;
+  margin: 20px 20px 50px;
+  border-radius: 10%;
+}
+.press-logo:hover{
+  background-color: rgb(10, 230, 219);
+  transform: scale(3);
+  
+}
+
+
+/* Meditation - App  */
+.column {
+  /* text-align: left; */
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* MEditation appp */
+
+.Med-img{
+  float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+/* Pricing Section */
+
+#Meditation {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

@@ -1,0 +1,405 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    
+    
+  }
+  .container-fluid{
+    background-color: black;
+  }
+  .colored-section{
+    margin: 100px;
+    padding: 50px;
+    background-color: white;
+    
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  h2{
+    text-align: left;
+  }
+
+
+  
+  p {
+    font-family: "Montserrat";
+    color:black;
+    text-align: left;
+    font-size:15px;
+  }
+  
+  /* heading */
+
+  .navbar-brand-2{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+
+    }
+
+    .navbar-brand-2:hover{
+        color: white;
+        text-decoration: none;
+    }
+   
+/* img */
+
+.bg {
+  height: 50%;
+  width: 100%;
+  text-align: right;
+
+  /* Full height */
+  height: 100%;
+  
+  /* Center and scale the image nicely */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 10%;
+}
+/* Food images */
+
+.All-Food:hover{
+  transform: scale(1.2);
+}
+
+.All-Food{
+  margin-bottom:10px;
+}
+
+.F_B:hover{
+  transform: scale(1.3);
+}
+.F_B{
+  margin-bottom:10px;
+}
+.Apples{
+  width: 500px;
+  height: 400px;
+  border-radius: 10%;
+  margin: 80px;
+}
+.Apples:hover{
+  transform: scale(1.3);
+}
+
+.Avacados{
+  width: 500px;
+  height: 600px;
+  border-radius: 10%;
+  margin: 30px;
+}
+.Avacados:hover{
+  transform: scale(1.3);
+}
+
+.Banana{
+  width: 500px;
+  height: 500px;
+  border-radius: 10%;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.Banana:hover{
+  transform: scale(1.3);
+}
+
+.Orange{
+  width: 350px;
+  height: 350px;
+  border-radius: 10%;
+  margin-top: 120px;
+}
+
+.Orange:hover{
+  transform: scale(1.3);
+}
+
+.Eggs{
+  width: 350px;
+  height: 500px; 
+  border-radius: 10%;
+  margin-top: 350px;
+}
+
+.Eggs:hover{
+  transform: scale(1.3);
+}
+
+.Meat{
+  width: 350px;
+  height: 500px; 
+  border-radius: 10%;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.Meat:hover{
+  transform: scale(1.3);
+
+}
+
+.column {
+  /* text-align: left; */
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.line{
+  background-color: black;
+}
+
+
+/* Diseases */
+
+.Diseases{
+  width: 450px;
+  height: 600px; 
+  border-radius: 10%;
+  margin-top: 20px;
+}
+
+.Diseases:hover{
+  transform: scale(1.5);
+}
+
+.v-Diseases{
+  width: 600px;
+  height: 700px;
+  border-radius: 10%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.v-Diseases:hover{
+  transform: scale(1.5);
+}
+
+.B-Diseases{
+  width: 600px;
+  height: 700px;
+  border-radius: 10%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.B-Diseases:hover{
+  transform: scale(1.5);
+}
+
+.F-Diseases{
+  width: 500px;
+  height: 600px;
+  border-radius: 10%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.F-Diseases:hover{
+  transform: scale(1.5);
+}
+
+.Diseases-1{
+  width: 500px;
+  height: 400px;
+  border-radius: 10%;
+  margin: 80px;
+}
+
+.Diseases-1:hover{
+  transform: scale(1.5);
+}
+
+.Diseases-4{
+  width: 500px;
+  height: 600px;
+  border-radius: 10%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.Diseases-4:hover{
+  display: center;
+  transform: scale(1.5);
+}
+
+/* Yogas */
+
+.Meditation-2{
+  width: 600px;
+  height: 500px; 
+  border-radius: 10%;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  margin-left: 40px;
+}
+
+.Meditation-2:hover{
+  transform: scale(1.5);
+}
+
+.Yoga-1{
+  width: 300px;
+  height: 300px; 
+  border-radius: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Yoga-1:hover{
+  transform: scale(1.5);
+}
+
+.Yoga-2{
+  width: 500px;
+  height: 200px; 
+  border-radius: 10%;
+  
+}
+
+.Yoga-2:hover{
+  transform: scale(1.5);
+}
+
+
+.Yoga-3{
+  width: 300px;
+  height: 200px; 
+  border-radius: 10%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.Yoga-3:hover{
+  transform: scale(1.5);
+}
+
+.Yoga-4{
+  width: 300px;
+  height: 200px; 
+  border-radius: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.Yoga-4:hover{
+  transform: scale(1.5);
+}
+
+.Yoga-5{
+  width: 300px;
+  height: 500px; 
+  border-radius: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.Yoga-5:hover{
+  transform: scale(1.5);
+}
+
+.Yoga-6{
+  width: 300px;
+  height: 300px; 
+  border-radius: 10%;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+ 
+}
+
+.Yoga-6:hover{
+  transform: scale(1.5);
+}
+
+.Yoga-7{
+  width: 300px;
+  height: 300px; 
+  border-radius: 10%;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  
+}
+
+.Yoga-7:hover{
+  transform: scale(1.5);
+}
+
+.Yoga-8:hover{
+  transform: scale(1.5);
+}
+
+.Yoga-9{
+  width: 300px;
+  height: 300px; 
+  border-radius: 10%;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+
+}
+
+.Yoga-9:hover{
+  transform: scale(1.5);
+}
+
+.Yoga-10{
+  width: 300px;
+  height: 300px; 
+  border-radius: 10%;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  
+}
+
+.Yoga-10:hover{
+  transform: scale(1.5);
+}
+
+.Yoga-11{
+  width: 300px;
+  height: 300px; 
+  border-radius: 10%;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  
+}
+
+.Yoga-11:hover{
+  transform: scale(1.5);
+}
+
+.Yoga-12{
+  width: 300px;
+  height: 300px; 
+  border-radius: 10%;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  
+}
+
+.Yoga-12:hover{
+  transform: scale(1.5);
+}
